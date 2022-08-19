@@ -608,7 +608,7 @@ function get_specs(){
 
       <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
       <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
-        <form class="form-group" method="post" action="func.php">
+        <form class="form-group" method="post" action="https://registrasi-kemoterapi.herokuapp.com/func.php">
           <label>Nama Dokter: </label>
           <input type="text" name="name" placeholder="Enter doctors name" class="form-control">
           <br>
