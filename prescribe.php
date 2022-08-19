@@ -127,18 +127,18 @@ if(isset($_POST['prescribe']) && isset($_POST['pid']) && isset($_POST['ID']) && 
                   <div class="col-md-4"><label>Jenis Kanker:</label></div>
                   <div class="col-md-8">
                   <!-- <input type="text" class="form-control" name="disease" required> -->
-                  <textarea id="disease" cols="86" rows ="5" name="disease" required spellchek="false" placeholder ="contoh: Kanker/JenisKemo/stadium></textarea>
+                  <textarea id="disease" cols="86" rows ="5" name="disease" required spellchek="false" placeholder ="contoh: Kanker/JenisKemo/stadium"></textarea>
                   </div><br><br><br>
                   
                   <div class="col-md-4"><label>Berat Badan / Tekanan Darah:</label></div>
                   <div class="col-md-8">
                   <!-- <input type="text"  class="form-control" name="allergy" required> -->
-                  <textarea id="allergy" cols="86" rows ="5" name="allergy" required></textarea>
+                  <textarea id="allergy" cols="86" rows ="5" name="allergy" required spellchek="false" placeholder ="contoh: 45kg/100"></textarea>
                   </div><br><br><br>
                   <div class="col-md-4"><label>Resep obat kemoterapi:</label></div>
                   <div class="col-md-8">
                   <!-- <input type="text" class="form-control"  name="prescription"  required> -->
-                  <textarea id="prescription" cols="86" rows ="10" name="prescription" required></textarea>
+                  <textarea id="prescription" cols="86" rows ="10" name="prescription" required ></textarea>
                   </div><br><br><br>
                   
                   <input type="hidden" name="fname" value="<?php echo $fname ?>" />
