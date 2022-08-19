@@ -306,7 +306,7 @@ function get_specs(){
           <div class="card">
             <div class="card-body">
               <center><h4>Buat Perjanjian Pengobatan Kemoterapi Dengan Dokter</h4></center><br>
-              <form class="form-group" method="post" action="admin-panel.php">
+              <form class="form-group" method="post" action="https://registrasi-kemoterapi.herokuapp.com/admin-panel.php">
                 <div class="row">
                   
                   <!-- <?php
