@@ -98,7 +98,7 @@ function checklen()
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                 <h3 class="register-heading">Daftar sebagai Pasien Kemoterapi</h3>
-                                <form method="post" action="func2.php">
+                                <form method="post" action="https://registrasi-kemoterapi.herokuapp.com/func2.php">
                                 <div class="row register-form">
                                     
                                     <div class="col-md-6">
@@ -148,7 +148,7 @@ function checklen()
                             
                             <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <h3  class="register-heading">Login sebagai Dokter Kemoterapi</h3>
-                                <form method="post" action="func1.php">
+                                <form method="post" action="https://registrasi-kemoterapi.herokuapp.com/func1.php">
                                 <div class="row register-form">
                                     <div class="col-md-6">
                                         <div class="form-group">
@@ -169,7 +169,7 @@ function checklen()
 
                             <div class="tab-pane fade show" id="admin" role="tabpanel" aria-labelledby="profile-tab">
                                 <h3  class="register-heading">Login sebagai Admisi Registrasi</h3>
-                                <form method="post" action="func3.php">
+                                <form method="post" action="https://registrasi-kemoterapi.herokuapp.com/func3.php">
                                 <div class="row register-form">
                                     <div class="col-md-6">
                                         <div class="form-group">
