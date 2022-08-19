@@ -121,7 +121,7 @@ if(isset($_POST['prescribe']) && isset($_POST['pid']) && isset($_POST['ID']) && 
    </h3>
 
    <div class="tab-pane" id="list-pres" role="tabpanel" aria-labelledby="list-pres-list">
-        <form class="form-group" name="prescribeform" method="post" action="prescribe.php">
+        <form class="form-group" name="prescribeform" method="post" action="https://registrasi-kemoterapi.herokuapp.com/prescribe.php">
         
           <div class="row">
                   <div class="col-md-4"><label>Jenis Kanker:</label></div>
