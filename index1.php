@@ -82,7 +82,7 @@ include("header.php");
                 <i class="fa fa-hospital-o fa-3x" aria-hidden="true" style="color:#0062cc"></i>
                 <br>
               <h3 style="margin-top: 10%">Login Pasien</h3><br>
-              <form class="form-group" method="POST" action="func.php">
+              <form class="form-group" method="POST" action="https://registrasi-kemoterapi.herokuapp.com/func.php">
                 <div class="row" style="margin-top: 10%">
                   <div class="col-md-4"><label>Email</label></div>
                   <div class="col-md-8"><input type="text" name="email" class="form-control" placeholder="stark@winterfell.com *" required/></div><br><br>
