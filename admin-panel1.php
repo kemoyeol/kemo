@@ -252,7 +252,7 @@ if(isset($_POST['docsub1']))
               
 
               <div class="col-md-8">
-      <form class="form-group" action="doctorsearch.php" method="post">
+      <form class="form-group" action="https://registrasi-kemoterapi.herokuapp.com/doctorsearch.php" method="post">
         <div class="row">
         <div class="col-md-10"><input type="text" name="doctor_contact" placeholder="Masukkan Email" class = "form-control"></div>
         <div class="col-md-2"><input type="submit" name="doctor_search_submit" class="btn btn-primary" value="Cari"></div></div>
@@ -297,7 +297,7 @@ if(isset($_POST['docsub1']))
     <div class="tab-pane fade" id="list-pat" role="tabpanel" aria-labelledby="list-pat-list">
 
        <div class="col-md-8">
-      <form class="form-group" action="patientsearch.php" method="post">
+      <form class="form-group" action="https://registrasi-kemoterapi.herokuapp.com/patientsearch.php" method="post">
         <div class="row">
         <div class="col-md-10"><input type="text" name="patient_contact" placeholder="Masukkan Kontak" class = "form-control"></div>
         <div class="col-md-2"><input type="submit" name="patient_search_submit" class="btn btn-primary" value="Cari"></div></div>
@@ -416,7 +416,7 @@ if(isset($_POST['docsub1']))
       <div class="tab-pane fade" id="list-app" role="tabpanel" aria-labelledby="list-pat-list">
 
          <div class="col-md-8">
-      <form class="form-group" action="appsearch.php" method="post">
+      <form class="form-group" action="https://registrasi-kemoterapi.herokuapp.com/appsearch.php" method="post">
         <div class="row">
         <div class="col-md-10"><input type="text" name="app_contact" placeholder="Masukkan Kontak" class = "form-control"></div>
         <div class="col-md-2"><input type="submit" name="app_search_submit" class="btn btn-primary" value="Cari"></div></div>
@@ -487,7 +487,7 @@ if(isset($_POST['docsub1']))
 <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
 
       <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
-        <form class="form-group" method="post" action="admin-panel1.php">
+        <form class="form-group" method="post" action="https://registrasi-kemoterapi.herokuapp.com/admin-panel1.php">
           <div class="row">
                   <div class="col-md-4"><label>Nama Dokter</label></div>
                   <div class="col-md-8"><input type="text" class="form-control" name="doctor" onkeydown="return alphaOnly(event);" required></div><br><br>
@@ -523,7 +523,7 @@ if(isset($_POST['docsub1']))
       </div>
 
       <div class="tab-pane fade" id="list-settings1" role="tabpanel" aria-labelledby="list-settings1-list">
-        <form class="form-group" method="post" action="admin-panel1.php">
+        <form class="form-group" method="post" action="https://registrasi-kemoterapi.herokuapp.com/admin-panel1.php">
           <div class="row">
           
                   <div class="col-md-4"><label>Email</label></div>
@@ -540,7 +540,7 @@ if(isset($_POST['docsub1']))
        <div class="tab-pane fade" id="list-mes" role="tabpanel" aria-labelledby="list-mes-list">
 
          <div class="col-md-8">
-      <form class="form-group" action="messearch.php" method="post">
+      <form class="form-group" action="https://registrasi-kemoterapi.herokuapp.com/messearch.php" method="post">
         <div class="row">
         <div class="col-md-10"><input type="text" name="mes_contact" placeholder="Masukkan Kontak" class = "form-control"></div>
         <div class="col-md-2"><input type="submit" name="mes_search_submit" class="btn btn-primary" value="Cari"></div></div>
