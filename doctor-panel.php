@@ -88,7 +88,7 @@ if(isset($_GET['cancel']))
         <a class="nav-link" href="#"></a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0" method="post" action="search.php">
+    <form class="form-inline my-2 my-lg-0" method="post" action="https://registrasi-kemoterapi.herokuapp.com/search.php">
       <input class="form-control mr-sm-2" type="text" placeholder="Masukkan Kontak" aria-label="Search" name="contact">
       <input type="submit" class="btn btn-outline-light" id="inputbtn" name="search_submit" value="Cari">
     </form>
@@ -358,7 +358,7 @@ if(isset($_GET['cancel']))
 
       <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
       <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
-        <form class="form-group" method="post" action="admin-panel1.php">
+        <form class="form-group" method="post" action="https://registrasi-kemoterapi.herokuapp.com/admin-panel1.php">
           <div class="row">
                   <div class="col-md-4"><label>Doctor Name:</label></div>
                   <div class="col-md-8"><input type="text" class="form-control" name="doctor" required></div><br><br>
