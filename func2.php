@@ -1,6 +1,8 @@
 <?php
 session_start();
 $con=mysqli_connect("us-cdbr-east-06.cleardb.net","b2fc15c9651e0b","92d5433c","heroku_5ab3c0dd19c4e81");
+echo "<pre>";
+var_dump($con);exit;
 if(isset($_POST['patsub1'])){
 	$fname=$_POST['fname'];
   $lname=$_POST['lname'];
