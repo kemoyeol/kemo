@@ -17,7 +17,13 @@ $con=mysqli_connect("us-cdbr-east-06.cleardb.net","b2fc15c9651e0b","92d5433c","h
 
 if(isset($_POST['app-submit']))
 {
-  $pid = $_SESSION['pid'];
+	if(isset($pid)){
+		$pid = $_SESSION['pid'];
+	}else{
+		$queries = mysqli_query($con,"select pid from patreg where email='$email' and fname='$fname' and lname='$lname' and contact='$contact'");
+		$result = mysqli_fetch_array($queries);
+		$pid = $result['pid'];
+	}
   $username = $_SESSION['username'];
   $email = $_SESSION['email'];
   $fname = $_SESSION['fname'];
